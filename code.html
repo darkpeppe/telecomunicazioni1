@@ -7,7 +7,7 @@
 
 	<style>
 		.container {
-			display: flex;
+		display: flex;
 			justify-content: center;
 			align-items: center;
 			
@@ -32,7 +32,6 @@
 			padding: 20px;
 			margin: 0;
 		}
-		
 		h1 {
 			color: #333;
 			font-size: 28px;
@@ -49,7 +48,6 @@
 			padding: 20px;
 			overflow-x: auto;
 		}
-
 		.author {
 			text-align: center;
 			font-size: 14px;
@@ -64,10 +62,9 @@
 	
 	<div class="container"> <button class="button" onclick="goToPage2()">Vai ai datasheet</button></div>
 	<div class="author">Scritto da Giuseppe Bruno</div>
-
 	<script>
 		function goToPage2() {
-			window.location.href = "datasheet.html";
+		window.location.href = "datasheet.html";
 		}
 	</script>
 		</div>
@@ -87,8 +84,7 @@ void loop()
   analogWrite(6, data); 
   delay(1);
 }`;
-
-		document. getElementById("arduino-code").innerText = arduinoCode;
+	document. getElementById("arduino-code").innerText = arduinoCode;
 	</script>
 </body>
 </html>
